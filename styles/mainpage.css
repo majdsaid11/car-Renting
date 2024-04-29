@@ -1,0 +1,171 @@
+.bodypage{
+    padding: 0;
+    height: 900px;
+}
+.backGroundMainImg{
+    width: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+   
+   
+    background-color: #1f1f1f; /* Set text color to a contrasting color for readability */
+}
+
+  
+header {
+    background-color: #3f3f3f;
+    color: #fff;
+   
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-links li {
+    padding: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: rgb(255, 84, 84);
+}
+
+.material-symbols-outlined {
+vertical-align: middle;
+
+margin-bottom: 2px;
+display:inline-block ;
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.Specifications{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+    margin: 5px;
+}
+.C-info{
+    display: grid;
+    grid-template-rows: 1fr 200px 1fr;
+    border-style: solid ;
+    color: rgb(255, 84, 84);
+    border-radius: 10px;
+    border-width: 2px;
+    height: 350px;
+
+}
+.C-infoTitle{
+justify-items: center;
+ align-items: center;
+color: #fff;
+ font-size: larger;
+}
+.C-infoIMG{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+.carsAvalible{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+color: #fff;
+justify-items: center;
+margin-bottom: 30px;
+margin-top: 30px;
+height: 50px;
+}
+.Model-carsAvalible{
+    vertical-align: middle;
+ 
+}
+.thumb-nail{
+    display: flex;
+    max-width: 1000px;
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.inputtext{
+    height: 25px;
+    width: 270px;
+}
+.thumb-nail-contaner {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+    flex-direction: row;
+}
+
+.thumb-nail {
+    flex: 2; 
+    margin-right: 20px; 
+    flex-direction: row;
+}
+
+
+
+
+#js-modelsbutton {
+    margin-right: 10%;
+    flex-direction:row;
+}
+
+#js-modelsbutton{
+    color: rgb(255, 84, 84);
+    font-family: "Jersey 10", sans-serif;
+    font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: xx-large;
+    padding: 80px;
+    background-color: transparent;
+    border: solid;
+    border-style: dotted;
+    border-radius: 10px;
+}
+#js-modelsbutton:hover{
+    cursor: pointer;
+
+}
+#js-modelsbutton:active{
+    opacity: 0.7;
+
+}
+
+

@@ -1,0 +1,49 @@
+.body-offRoadpagestyle{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+   padding-left:10px ;
+   padding-right: 10px;
+    background-color: #1f1f1f; /* Set text color to a contrasting color for readability */
+height: 2500px;
+}
+.header1{color: aliceblue;}
+
+.offroadingcars{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 19px;
+    row-gap: 59px;
+ 
+}
+.car{
+    display: grid;
+    grid-template-rows: 1fr 35px;
+}
+
+.carinfo{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.carphoto{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.Home-booking-buttons-contaner{
+    display: grid;
+    grid-template-columns: 200px 200px;
+  
+}
+.off-road-info-p{
+    display: block;
+    font-size: xx-large;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.off-road-details{
+    display: flex;
+    
+
+}
